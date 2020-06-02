@@ -3,6 +3,7 @@
     "description": "PHP Hedgebot API Client library",
     "type": "library",
     "license": "MIT",
+    "version": "1.0",
     "authors": [
         {
             "name": "Yohann Lorant",
