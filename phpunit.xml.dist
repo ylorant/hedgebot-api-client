@@ -1,0 +1,19 @@
+<phpunit bootstrap="tests/bootstrap.php">
+    <!-- Settings as constants -->
+    <php>
+        <const name="HEDGEBOT_BASE_URL" value="" />
+        <const name="HEDGEBOT_TOKEN" value="" />
+    </php>
+
+    <!-- Test suites -->
+    <testsuites>
+        <testsuite name="tests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <!-- Code coverage -->
+    <logging>
+        <log type="coverage-html" target="tests/_reports/coverage" />
+    </logging>
+</phpunit>
